@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+black = "*"
+
+[packages]
+django = "~=3.0"
+graphene-django = "*"
+django-filter = "*"
+django-graphql-jwt = "*"
+django-cors-headers = "*"
+pip-tools = "~=4.3.0"
+psycopg2-binary = "*"
+
+[requires]
+python_version = "3.8"
